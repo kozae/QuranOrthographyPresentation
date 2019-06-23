@@ -8,6 +8,19 @@
     height: 100vh;
 }
 
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.step.future > .body {
+    display: none;
+}
+
 .phenomenon {
     display: flex !important;
     width: 60% !important;
