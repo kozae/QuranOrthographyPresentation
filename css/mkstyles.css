@@ -12,6 +12,7 @@
     display: flex !important;
     width: 60% !important;
     align-items: center !important;
+    justify-content:space-between;
 }
 
 .phenomenon > * {
@@ -21,7 +22,7 @@
 }
 
 h1 {
-    font-size: 4.5rem!important;
+    font-size: 4rem!important;
 }
 
 h2 {

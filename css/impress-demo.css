@@ -191,7 +191,8 @@ a:focus {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.0;
+    /*display: none;*/
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
